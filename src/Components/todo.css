@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Oswald:wght@200&family=Raleway:wght@100;200&display=swap');
+
+
+figcaption{
+    color: white;
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+input{
+    border: none;
+    outline-style: none;
+    width: 275px;
+}
+
+
+.addItems{
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px;
+    width: 280px;
+    display: flex;
+}
+.todo_item{
+    font-size: 20px;
+}
+.todo_container{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 280px;
+    background-color: blueviolet;
+    margin-top: 10px
+}
+
+.todo_container:hover{
+    cursor: pointer;
+    background-color: white;
+    color: blueviolet;
+}
+.fa-trash:hover{
+    color: red;
+}
+.fa-plus{
+    font-size: larger;
+}
+.fa-plus:hover{
+    color: green;
+    cursor: pointer;
+}
+.remove_todo{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    background-color: white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+
